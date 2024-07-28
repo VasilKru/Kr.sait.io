@@ -1,0 +1,65 @@
+.carousel-inner {
+  background-color: #ffffff;
+  box-shadow: 4px 6px 7px 1px #000000;
+}
+
+.slidetext {
+  color: rgb(10, 10, 10);
+  font-size: 1.3em;
+  margin-block: auto;
+}
+
+.kartinka {
+  border-radius: 100px;
+}
+
+.kupit {
+  padding-right: 0.7em;
+}
+
+.btn {
+  display: inline-block;
+  color: aliceblue;
+  background: linear-gradient(180deg, #386d5b 15%, #272626 100%);
+  font-size: 0.8em;
+  margin-block: auto;
+  padding-top: 1.5em;
+  border-radius: 50px;
+  box-shadow: 4px 6px 7px 1px #000000;
+  border: solid;
+  border-width: 1px;
+  border-color: #fdf9f9;
+}
+
+.btn:hover {
+  background: linear-gradient(180deg, #386d5b 15%, #a81024 100%);
+  color: rgb(255, 240, 240);
+  border: solid;
+  border-width: 1px;
+  border-color: #fdf9f9;
+}
+
+b {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+
+.vnutrimerci {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vnutrimerci img {
+  padding-top: 3em;
+}
+
+@media (max-width: 720px) {
+  footer {
+    display: none;
+  }
+  .text2 p {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}

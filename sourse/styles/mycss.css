@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css?family=Lexend&display=swap");
+
+body {
+  font-family: lexend, serif;
+  background-color: rgb(106, 145, 135);
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+}
+
+.icon img {
+  width: 120px;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(23, 24, 24);
+  text-shadow: 2px 2px 2px #000000;
+  font-size: 2.1em;
+}
+
+.container-fluid a {
+  text-decoration: none;
+}
+
+.contparfum {
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+}
+
+.cont1,
+.cont2 {
+  display: flex;
+  justify-content: center;
+  border: solid;
+  border-width: 0.5px;
+  margin-inline: 2px;
+  background: linear-gradient(0deg, #0a0a0a 6%, #969696 100%);
+  text-shadow: -2px 4px 8px #000000;
+  box-shadow: 4px 7px 11px 1px #000000;
+  padding-top: 0.3em;
+}
+
+.cont2:hover {
+  color: rgb(255, 255, 255);
+  border-color: #807f7f;
+  border-width: 1.9px;
+}
+
+.cont1:hover {
+  color: rgb(255, 255, 255);
+  border-color: #807f7f;
+  border-width: 1.9px;
+}
+
+.contparfum a {
+  margin-inline: 0.5em;
+  color: #f5f5f5;
+}
+
+.forclient {
+  margin-top: 0.5em;
+  text-align: center;
+  font-size: 1.5em;
+  color: rgb(241, 245, 245);
+  text-shadow: -2px 4px 8px #000000;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card {
+  box-shadow: 4px 9px 21px 1px #000000;
+  margin-bottom: 2em;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-body a {
+  background: linear-gradient(0deg, #0a0a0a 6%, #969696 100%);
+  box-shadow: 4px 6px 7px 1px #000000;
+  border: none;
+}
+
+.card-body a:hover {
+  background: linear-gradient(0deg, #c4122a 15%, #8c8d8d 100%);
+}
+
+.merci {
+  display: flex;
+  justify-content: center;
+}
+
+.nizpanel {
+  display: none;
+}
+
+@media (max-width: 1440px) {
+  .card-title {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 1367px) {
+  .text1 {
+  }
+  .icon img {
+    width: 100px;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+  .contparfum {
+    font-size: 1em;
+  }
+  .contparfum p {
+    padding-top: 0.5em;
+  }
+  .card-title {
+    font-size: 0.7em;
+  }
+  .card-text {
+    font-size: 0.7em;
+  }
+  .card a {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 1024px) {
+  .card-title {
+    font-size: 0.6em;
+  }
+  .card-text {
+    font-size: 0.6em;
+  }
+}
+
+@media (max-width: 720px) {
+  .nizpanel {
+    display: block;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  .nizpanel p {
+    padding-top: 0.6em;
+  }
+  .carousel-indicators {
+    display: none;
+  }
+  .spisok p {
+    font-size: 0.65em;
+    padding-top: 1em;
+  }
+  .card-body {
+    font-size: 0.9em;
+  }
+  .text1 {
+    padding-left: 0.5em;
+  }
+  .givency {
+    font-size: 0.9em;
+  }
+  .alan {
+    font-size: 0.9em;
+  }
+}

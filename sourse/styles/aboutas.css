@@ -1,0 +1,29 @@
+.aboutas {
+  margin-top: 0.5em;
+  color: rgb(255, 253, 253);
+  font-size: 1.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.aboutas img {
+  margin-top: 1em;
+}
+
+.onas {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.kont {
+  text-align: center;
+  margin-top: -1;
+  margin-bottom: 0;
+}
+
+@media (max-width: 720px) {
+  .onas,
+  .kont {
+    margin: 1em;
+  }
+}
